@@ -3,7 +3,7 @@ header{
     position: relative;
     padding: 200px;
     margin: 0px;
-    background-image:url(./image/fibre_Gab_2.jpg);
+    background-image:url(./image/gorgeous-forests_0.jpg);
     background-size:cover;  
    
 }
@@ -14,7 +14,7 @@ header{
     left: 0px;
     right: 0px;
     padding: 100px;
-    background-color: #97b844;
+    background-color: rgb(126, 150, 133);
 }
 
 .conteneur_1{
@@ -24,7 +24,7 @@ header{
     padding-bottom: 15px;
     position: absolute;
     top: 100px;
-    right: 500px;
+    right: 430px;
     border-bottom: 3px solid white;
 }
 
@@ -45,15 +45,60 @@ header{
    width: 230px;
    padding-top: 20px;
    padding-bottom: 20px;
-   background-color: rgb(199, 199, 74);
-   border: 3px solid black; 
+   border: 3px solid white; 
    border-radius: 5px;
+   background-color: white;
    font-family: Helvetica;
     font-weight: lighter;
     font-size: 25px;
     justify-content:center;
     
-}   
+} 
+
+.Main{
+
+    background-color:rgb(126, 150, 133);
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px 300px;
+    right: 800px;
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-bottom: 200px;
+    gap: 10px;
+}
+
+.imgI{
+    background-image:url(./image/gorgeous-forests_0.jpg);
+    background-size:800px;
+    height: 300px;
+    border-radius: 10px;  
+}
+
+.imgII{
+    background-image:url(./image/Focus-Forest.jpg);
+    background-size:800px; 
+    height: 300px;
+    border-radius: 10px;   
+}
+
+.imgIII{
+    background-image:url(./image/istock-497148125.png);
+    background-size:800px;
+    height: 300px;
+    border-radius: 10px;     
+}
+
+.imgIV{
+    background-image:url(./image/phppkx08E.jpg);
+    background-size:800px;
+    height: 300px;
+    border-radius: 10px;    
+}
+
 
 
 
@@ -65,9 +110,30 @@ h1{
 
 } 
 
+.titre2{
+    color:white;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 120px;
+} 
+
+.pgrph{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align:justify;
+    right: 500px;
+    margin-left: 350px;
+} 
+
 p{
     width: 50%;
-    padding: 16PX;
+    padding: 16px;
     margin: 16px;
 }
 
