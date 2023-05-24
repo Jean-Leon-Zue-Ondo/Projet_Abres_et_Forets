@@ -1,0 +1,88 @@
+
+header{
+    position: relative;
+    padding: 200px;
+    margin: 0px;
+    background-image:url(./image/fibre_Gab_2.jpg);
+    background-size:cover;  
+   
+}
+ 
+.contenue:hover{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 100px;
+    background-color: #97b844;
+}
+
+.conteneur_1{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 100px;
+    right: 500px;
+    border-bottom: 3px solid white;
+}
+
+.conteneur_2{
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    position: absolute; 
+    top: 10px;
+    right:250px;
+}
+
+.bouton_1{
+    display: flex;
+    position:absolute;
+   top: 80px;
+   right: 30px;
+   width: 230px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: rgb(199, 199, 74);
+   border: 3px solid black; 
+   border-radius: 5px;
+   font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 25px;
+    justify-content:center;
+    
+}   
+
+
+
+h1{
+    color:aliceblue;
+    font-family: Helvetica, sans-serif;
+    padding: 20px;
+    
+
+} 
+
+p{
+    width: 50%;
+    padding: 16PX;
+    margin: 16px;
+}
+
+.Police{
+    font-family: Helvetica;
+    font-weight:bold;
+    font-size: 25px;
+    color: white;
+    
+}
+
+
+.Police_2{
+    font-family: Helvetica;
+    font-weight:bold;
+    font-size: 15px;
+    color: white;
+}
